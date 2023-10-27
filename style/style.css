@@ -227,7 +227,7 @@ body{
     z-index: 99;
 
 }
-@media (max-width: 390px){
+@media (max-width: 600px){
     .cabecalho{
         padding-top: 46px;
         flex-direction: column;
