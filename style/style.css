@@ -180,7 +180,15 @@ body{
     list-style: none;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 4px 6px 14px rgba(0, 0, 0, 0.15);
+    animation: all 0.9s ease;
 
+}
+
+.servico__item:hover{
+    transform: scale(1.05);
+    border-radius: 9px;
+    cursor: pointer;
+    
 }
 
 .servico__info{
@@ -218,4 +226,70 @@ body{
     right: 10px;
     z-index: 99;
 
+}
+@media (max-width: 390px){
+    .cabecalho{
+        padding-top: 46px;
+        flex-direction: column;
+    }
+    .btn-agendar{
+        display: none;
+    }
+    .logo{
+        margin-top: 54px;
+    }
+    .home__principal h1{
+        font-size: 34px;
+        margin: 90px 10px 34px 10px;
+    }
+    .home__principal p{
+        font-size: 16px;
+       
+    }
+    .home__principal a{
+        width: 193px;
+        font-size: 16px;
+        padding: 12px 33px;
+    }
+    .about{
+        flex-direction: column;
+        margin: 0 30px;
+        gap: 43px;
+        margin-bottom: 126px;
+    }
+    .about__imagem{
+        width: 100%;
+    }
+    .about__texto{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300; 
+        
+    }
+    .servico__lista{
+        flex-direction: column;
+    }
+    .servico__descricao{
+        margin: 24px 34px 5px 34px;
+        font-size: 16px;
+
+    }
+    .rodape{
+        gap: 10px
+    }
+    .about__texto{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .img-footer{
+        margin: 0;
+    }
+    .whats{
+        position: fixed;
+        width: 73px;
+        bottom: 50px;
+        right: 10px;
+        z-index: 99;
+    
+    }
 }
